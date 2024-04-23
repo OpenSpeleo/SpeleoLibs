@@ -1,3 +1,6 @@
 [submodule "mnemo_lib"]
 	path = mnemo_lib
 	url = https://github.com/MX-SpeleoSurvey/pytool_mnemo_lib
+[submodule "ariane_lib"]
+	path = ariane_lib
+	url = git@github.com:MX-SpeleoSurvey/pytool_ariane_lib.git
