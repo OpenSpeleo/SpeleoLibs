@@ -27,7 +27,7 @@ jobs:
       # Setting up the environment
       - name: setup
         run: |
-          git config --global user.name 'MX-SpeleoSurvey Github Bot'
+          git config --global user.name 'SpeleoDB Github Bot'
           git config --global user.email 'bot@noreply.github.com'
           git config --global credential.helper store
           echo "https://x-access-token:${{ secrets.CI_TOKEN }}@github.com" > ~/.git-credentials
