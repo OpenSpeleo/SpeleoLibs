@@ -4,3 +4,6 @@
 [submodule "ariane_lib"]
 	path = ariane_lib
 	url = https://github.com/SpeleoDB/pytool_ariane_lib
+[submodule "compass_lib"]
+	path = compass_lib
+	url = https://github.com/SpeleoDB/pytool_compass_lib
