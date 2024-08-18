@@ -7,6 +7,6 @@
 [submodule "compass_lib"]
 	path = compass_lib
 	url = https://github.com/OpenSpeleo/pytool_compass_lib
-[submodule "open_speleo_lib"]
-	path = open_speleo_lib
-	url = git@github.com:OpenSpeleo/pytool_open_speleo.git
+[submodule "openspeleo_lib"]
+	path = openspeleo_lib
+	url = git@github.com:OpenSpeleo/pytool_openspeleo_lib.git
