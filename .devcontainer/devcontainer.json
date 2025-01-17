@@ -51,7 +51,7 @@
             ]
         }
     },
-    "postCreateCommand": "pip install monas && monas install --root",
+    "postCreateCommand": "pip install --upgrade pip git+https://github.com/DEKHTIARJonathan/monas.git && monas install --root",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "username": "speleolibs",
