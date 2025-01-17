@@ -1,0 +1,4 @@
+[tool.monas]
+packages = ["ariane_lib", "compass_lib", "mnemo_lib", "openspeleo_lib"]
+version = "0.0.1"
+python-version = "3.13"
