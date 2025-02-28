@@ -1,19 +1,29 @@
-[tool.monas]
-packages = [
+[project]
+name = "SpeleoLibs_Monorepo"
+version = "1.0.0"
+authors = [{ name = "Jonathan Dekhtiar", email = "jonathan@dekhtiar.com" }]
+readme = "README.md"
+dependencies = []
+requires-python = ">=3.13"
+
+[tool.uv.sources]
+ariane_lib = { workspace = true }
+compass_lib = { workspace = true }
+mnemo_lib = { workspace = true }
+openspeleo_lib = { workspace = true }
+
+[tool.uv.workspace]
+members = ["ariane_lib", "compass_lib", "mnemo_lib", "openspeleo_lib"]
+
+[tool.uv]
+dev-dependencies = [
+    "pre-commit>=3.8.0",
     "ariane_lib[dev,test]",
     "compass_lib[dev,test]",
     "mnemo_lib[dev,test]",
     "openspeleo_lib[dev,test]",
 ]
-version = "0.0.1"
-python-version = "3.13"
-
-# # This is configuration specific to the `setuptools` build backend.
-# # If you are using a different build backend, you will need to change this.
-# [tool.setuptools]
-# # If there are data files included in your packages that need to be
-# # installed, specify them here.
-# package-data = {"sample" = ["*.dat"]}
+package = false
 
 [tool.isort]
 profile = "black"
@@ -133,9 +143,11 @@ ignore = [
     # class itself.
     "UP009", # Checks for unnecessary UTF-8 encoding declarations.
     "UP038", # Checks for uses of isinstance/issubclass that take a tuple of types for 
-    # comparison. 
-    # Deactivated because it can make the code slow: 
+    # comparison. Deactivated because it can make the code slow: 
     # https://github.com/astral-sh/ruff/issues/7871
+    "PLR0912", # Checks for functions or methods with too many branches, including (nested)
+    # if, elif, and else branches, for loops, try-except clauses, and match and case statements.
+    "C901", # Checks for functions with a high McCabe complexity.
 ]
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
