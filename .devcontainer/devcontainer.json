@@ -54,7 +54,7 @@
             ]
         }
     },
-    "postCreateCommand": "uv sync",
+    "postCreateCommand": "make install",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "username": "speleolibs",

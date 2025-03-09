@@ -25,6 +25,9 @@ members = [
 [tool.uv]
 dev-dependencies = [
     "pre-commit>=3.8.0",
+    "maturin>=1.8",
+    "ruff>=0.3,<0.10",
+    "wheel>=0.45",
     "ariane_lib[dev,test]",
     "compass_lib[dev,test]",
     "mnemo_lib[dev,test]",
