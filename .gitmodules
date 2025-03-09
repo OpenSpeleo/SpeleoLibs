@@ -10,3 +10,6 @@
 [submodule "openspeleo_lib"]
 	path = openspeleo_lib
 	url = git@github.com:OpenSpeleo/pytool_openspeleo_lib.git
+[submodule "openspeleo_core"]
+	path = openspeleo_core
+	url = git@github.com:OpenSpeleo/openspeleo_core.git
