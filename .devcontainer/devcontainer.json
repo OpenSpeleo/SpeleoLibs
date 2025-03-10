@@ -50,7 +50,9 @@
                 // Makefile Tools
                 "ms-vscode.makefile-tools",
                 // Ruff
-                "charliermarsh.ruff"
+                "charliermarsh.ruff",
+                // Rust
+                "rust-lang.rust-analyzer"
             ]
         }
     },

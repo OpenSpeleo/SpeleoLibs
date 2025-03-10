@@ -18,4 +18,5 @@ RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
 # Install uv
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
-ENV UV_CACHE_DIR=/workspace/.uv/cache
+ENV UV_CACHE_DIR="/workspace/.uv/cache"
+ENV PATH="/workspace/.venv/bin:$PATH"
