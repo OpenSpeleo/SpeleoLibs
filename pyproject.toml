@@ -7,32 +7,32 @@ dependencies = []
 requires-python = ">=3.13"
 
 [tool.uv.sources]
-ariane_lib = { workspace = true }
-compass_lib = { workspace = true }
-mnemo_lib = { workspace = true }
-openspeleo_core = { workspace = true }
-openspeleo_lib = { workspace = true }
+ariane-lib = { workspace = true }
+compass-lib = { workspace = true }
+mnemo-lib = { workspace = true }
+openspeleo-core = { workspace = true }
+openspeleo-lib = { workspace = true }
 
 [tool.uv.workspace]
 members = [
-    "ariane_lib",
-    "compass_lib",
-    "mnemo_lib",
-    "openspeleo_core",
-    "openspeleo_lib",
+    "pkg_ariane_lib",
+    "pkg_compass_lib",
+    "pkg_mnemo_lib",
+    "pkg_openspeleo_core",
+    "pkg_openspeleo_lib",
 ]
 
 [tool.uv]
 dev-dependencies = [
-    "pre-commit>=3.8.0",
+    "pre-commit>=4.1,<4.2",
     "maturin[patchelf]>=1.8",
     "ruff>=0.3,<0.10",
     "wheel>=0.45",
-    "ariane_lib[dev,test]",
-    "compass_lib[dev,test]",
-    "mnemo_lib[dev,test]",
-    "openspeleo_core[dev,test]",
-    "openspeleo_lib[dev,test]",
+    "ariane-lib[dev,test]",
+    "compass-lib[dev,test]",
+    "mnemo-lib[dev,test]",
+    "openspeleo-core[dev,test]",
+    "openspeleo-lib[dev,test]",
 ]
 package = false
 
