@@ -453,7 +453,7 @@ requires-dist = [
     { name = "pytest-ordering", marker = "extra == 'test'", specifier = ">=0.6,<1.0.0" },
     { name = "pytest-runner", marker = "extra == 'test'", specifier = ">=6.0.0,<7.0.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.3,<0.10" },
-    { name = "xmltodict", marker = "extra == 'test'", specifier = ">=0.13,<0.15" },
+    { name = "xmltodict", marker = "extra == 'test'", specifier = ">=0.14,<0.15" },
 ]
 provides-extras = ["dev", "test"]
 

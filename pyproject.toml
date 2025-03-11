@@ -28,11 +28,11 @@ dev-dependencies = [
     "maturin[patchelf]>=1.8",
     "ruff>=0.3,<0.10",
     "wheel>=0.45",
-    "ariane-lib[dev,test]",
-    "compass-lib[dev,test]",
-    "mnemo-lib[dev,test]",
-    "openspeleo-core[dev,test]",
-    "openspeleo-lib[dev,test]",
+    "ariane_lib[dev,test]",
+    "compass_lib[dev,test]",
+    "mnemo_lib[dev,test]",
+    "openspeleo_core[dev,test]",
+    "openspeleo_lib[dev,test]",
 ]
 package = false
 
