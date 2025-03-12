@@ -1,15 +1,15 @@
 [submodule "mnemo_lib"]
-	path = pkg_mnemo_lib
+	path = mnemo_lib
 	url = https://github.com/OpenSpeleo/pytool_mnemo_lib
 [submodule "ariane_lib"]
-	path = pkg_ariane_lib
+	path = ariane_lib
 	url = https://github.com/OpenSpeleo/pytool_ariane_lib
 [submodule "compass_lib"]
-	path = pkg_compass_lib
+	path = compass_lib
 	url = https://github.com/OpenSpeleo/pytool_compass_lib
 [submodule "openspeleo_lib"]
-	path = pkg_openspeleo_lib
+	path = openspeleo_lib
 	url = git@github.com:OpenSpeleo/pytool_openspeleo_lib.git
 [submodule "openspeleo_core"]
-	path = pkg_openspeleo_core
+	path = openspeleo_core
 	url = git@github.com:OpenSpeleo/openspeleo_core.git

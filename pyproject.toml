@@ -15,11 +15,11 @@ openspeleo-lib = { workspace = true }
 
 [tool.uv.workspace]
 members = [
-    "pkg_ariane_lib",
-    "pkg_compass_lib",
-    "pkg_mnemo_lib",
-    "pkg_openspeleo_core",
-    "pkg_openspeleo_lib",
+    "ariane_lib",
+    "compass_lib",
+    "mnemo_lib",
+    "openspeleo_core",
+    "openspeleo_lib",
 ]
 
 [tool.uv]

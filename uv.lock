@@ -33,7 +33,7 @@ wheels = [
 [[package]]
 name = "ariane-lib"
 version = "0.0.2"
-source = { editable = "pkg_ariane_lib" }
+source = { editable = "ariane_lib" }
 dependencies = [
     { name = "defusedxml" },
     { name = "dicttoxml2" },
@@ -142,7 +142,7 @@ wheels = [
 [[package]]
 name = "compass-lib"
 version = "0.0.1"
-source = { editable = "pkg_compass_lib" }
+source = { editable = "compass_lib" }
 dependencies = [
     { name = "orjson" },
     { name = "pydantic" },
@@ -269,15 +269,15 @@ wheels = [
 
 [[package]]
 name = "hypothesis"
-version = "6.128.2"
+version = "6.128.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
     { name = "sortedcontainers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/56/21/aacb20704bc69f519526150e97cae8adc54148a2de3c6b4b7ed8d0c92fe4/hypothesis-6.128.2.tar.gz", hash = "sha256:a6e0e61bdb9ee6d1459687e4169e76a7bce830bb88f7e9948c2c1c4c39dd74b3", size = 422443 }
+sdist = { url = "https://files.pythonhosted.org/packages/87/1c/28f887dd7363eb4ced0e617eadb591a71c15f89cbe7ee373fda6ad4af289/hypothesis-6.128.3.tar.gz", hash = "sha256:6b2d5d7b149eeb71abf6fa1c27003234dfaea054729ea5f1438d4390eb691472", size = 423253 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/36/58ea6d196dc45a2a3e3bb2dc90368be85b39a84da587ca9bc06ea55bec18/hypothesis-6.128.2-py3-none-any.whl", hash = "sha256:a4815dfb8bccfe26ccffa26e4c50d2f07adb45b1b4c66f4dd23ffbfb8cbf8ed3", size = 486232 },
+    { url = "https://files.pythonhosted.org/packages/e2/78/d9fed4c092587e8e7574ad8aa1c58b50e6a6f4f7240015167074acf8247f/hypothesis-6.128.3-py3-none-any.whl", hash = "sha256:7eb4ac204fafcadf27f59ece9637b7437d232c8e371e930c2e54d1f649deb535", size = 487192 },
 ]
 
 [[package]]
@@ -363,7 +363,7 @@ patchelf = [
 [[package]]
 name = "mnemo-lib"
 version = "0.0.3"
-source = { editable = "pkg_mnemo_lib" }
+source = { editable = "mnemo_lib" }
 dependencies = [
     { name = "orjson" },
     { name = "pydantic" },
@@ -418,7 +418,7 @@ wheels = [
 [[package]]
 name = "openspeleo-core"
 version = "0.0.1"
-source = { editable = "pkg_openspeleo_core" }
+source = { editable = "openspeleo_core" }
 
 [package.optional-dependencies]
 dev = [
@@ -460,11 +460,12 @@ provides-extras = ["dev", "test"]
 [[package]]
 name = "openspeleo-lib"
 version = "0.0.1"
-source = { editable = "pkg_openspeleo_lib" }
+source = { editable = "openspeleo_lib" }
 dependencies = [
     { name = "argparse" },
     { name = "bidict" },
     { name = "lxml" },
+    { name = "openspeleo-core" },
     { name = "orjson" },
     { name = "pydantic" },
     { name = "pydantic-extra-types" },
@@ -498,6 +499,7 @@ requires-dist = [
     { name = "deepdiff", marker = "extra == 'test'", specifier = ">=7.0,<9.0" },
     { name = "hypothesis", marker = "extra == 'test'", specifier = ">=6.128,<6.129" },
     { name = "lxml", specifier = ">=5.3,<5.4" },
+    { name = "openspeleo-core", editable = "openspeleo_core" },
     { name = "orjson", specifier = ">=3.10,<3.11" },
     { name = "parameterized", marker = "extra == 'test'", specifier = ">=0.9.0,<0.10" },
     { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=4.1,<4.2" },
@@ -652,15 +654,15 @@ wheels = [
 
 [[package]]
 name = "pydantic-extra-types"
-version = "2.10.2"
+version = "2.10.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/23/ed/69f3f3de12c02ebd58b2f66ffb73d0f5a1b10b322227897499753cebe818/pydantic_extra_types-2.10.2.tar.gz", hash = "sha256:934d59ab7a02ff788759c3a97bc896f5cfdc91e62e4f88ea4669067a73f14b98", size = 86893 }
+sdist = { url = "https://files.pythonhosted.org/packages/53/fa/6b268a47839f8af46ffeb5bb6aee7bded44fbad54e6bf826c11f17aef91a/pydantic_extra_types-2.10.3.tar.gz", hash = "sha256:dcc0a7b90ac9ef1b58876c9b8fdede17fbdde15420de9d571a9fccde2ae175bb", size = 95128 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/08/da/86bc9addde8a24348ac15f8f7dcb853f78e9573c7667800dd9bc60558678/pydantic_extra_types-2.10.2-py3-none-any.whl", hash = "sha256:9eccd55a2b7935cea25f0a67f6ff763d55d80c41d86b887d88915412ccf5b7fa", size = 35473 },
+    { url = "https://files.pythonhosted.org/packages/38/0a/f6f8e5f79d188e2f3fa9ecfccfa72538b685985dd5c7c2886c67af70e685/pydantic_extra_types-2.10.3-py3-none-any.whl", hash = "sha256:e8b372752b49019cd8249cc192c62a820d8019f5382a8789d0f887338a59c0f3", size = 37175 },
 ]
 
 [[package]]
@@ -868,12 +870,12 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "ariane-lib", extras = ["dev", "test"], editable = "pkg_ariane_lib" },
-    { name = "compass-lib", extras = ["dev", "test"], editable = "pkg_compass_lib" },
+    { name = "ariane-lib", extras = ["dev", "test"], editable = "ariane_lib" },
+    { name = "compass-lib", extras = ["dev", "test"], editable = "compass_lib" },
     { name = "maturin", extras = ["patchelf"], specifier = ">=1.8" },
-    { name = "mnemo-lib", extras = ["dev", "test"], editable = "pkg_mnemo_lib" },
-    { name = "openspeleo-core", extras = ["dev", "test"], editable = "pkg_openspeleo_core" },
-    { name = "openspeleo-lib", extras = ["dev", "test"], editable = "pkg_openspeleo_lib" },
+    { name = "mnemo-lib", extras = ["dev", "test"], editable = "mnemo_lib" },
+    { name = "openspeleo-core", extras = ["dev", "test"], editable = "openspeleo_core" },
+    { name = "openspeleo-lib", extras = ["dev", "test"], editable = "openspeleo_lib" },
     { name = "pre-commit", specifier = ">=4.1,<4.2" },
     { name = "ruff", specifier = ">=0.3,<0.10" },
     { name = "wheel", specifier = ">=0.45" },
