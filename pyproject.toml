@@ -26,7 +26,7 @@ members = [
 dev-dependencies = [
     "pre-commit>=4.1,<4.2",
     "maturin[patchelf]>=1.8",
-    "ruff>=0.3,<0.10",
+    "ruff>=0.3,<0.12",
     "wheel>=0.45",
     "ariane_lib[dev,test]",
     "compass_lib[dev,test]",
