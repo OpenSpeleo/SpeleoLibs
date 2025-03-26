@@ -32,7 +32,8 @@
                     "linting.mypyEnabled": true,
                     "linting.mypyPath": "/usr/local/bin/mypy",
                     "linting.pylintEnabled": true
-                }
+                },
+                "rust-analyzer.cargo.targetDir": true
             },
             "extensions": [
                 // Python
@@ -56,7 +57,9 @@
                 // Ruff
                 "charliermarsh.ruff",
                 // Rust
-                "rust-lang.rust-analyzer"
+                "rust-lang.rust-analyzer",
+                // Env Files
+                "IronGeek.vscode-env"
             ]
         }
     },
