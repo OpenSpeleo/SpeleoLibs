@@ -58,6 +58,8 @@
                 "charliermarsh.ruff",
                 // Rust
                 "rust-lang.rust-analyzer",
+                // Cython
+                "guyskk.language-cython",
                 // Env Files
                 "IronGeek.vscode-env"
             ]
