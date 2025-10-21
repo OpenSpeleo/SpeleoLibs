@@ -30,7 +30,7 @@ members = [
 dev = [
     "check-manifest",
     "pre-commit>=4.1,<4.4",
-    "ruff>=0.3,<0.13",
+    "ruff>=0.3,<0.15",
     "wheel>=0.45",
     "flit>=3.12,<4",
     "maturin[patchelf]>=1.8",
@@ -38,7 +38,7 @@ dev = [
     "pyinstrument>=5.0,<6.0",
     # File encryption/decryption
     "python-dotenv>=1.0.0,<2.0.0",
-    "cryptography>=44.0.0,<46.0.0",
+    "cryptography>=44.0.0,<47.0.0",
     # Projects
     "ariane_lib[test]",
     "compass_lib[test]",
