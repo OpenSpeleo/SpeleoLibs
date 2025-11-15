@@ -21,4 +21,4 @@ clean-pyc: ## remove Python file artifacts
 # ============================================================================ #
 
 install: clean ## install the package to the active Python's site-packages
-	uv sync --reinstall --active
+	uv sync --locked --active  --dev --all-extras
