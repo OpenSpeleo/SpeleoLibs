@@ -520,6 +520,10 @@ wheels = [
 ]
 
 [[package]]
+name = "davies"
+source = { editable = "davies" }
+
+[[package]]
 name = "deepdiff"
 version = "8.6.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2095,6 +2099,7 @@ dependencies = [
     { name = "check-manifest" },
     { name = "compass-lib", extra = ["test"] },
     { name = "cryptography" },
+    { name = "davies" },
     { name = "flit" },
     { name = "maturin", extra = ["patchelf"] },
     { name = "mnemo-lib", extra = ["test"] },
@@ -2113,6 +2118,7 @@ requires-dist = [
     { name = "check-manifest" },
     { name = "compass-lib", extras = ["test"], editable = "compass_lib" },
     { name = "cryptography", specifier = ">=44.0.0,<47.0.0" },
+    { name = "davies", editable = "davies" },
     { name = "flit", specifier = ">=3.12,<4" },
     { name = "maturin", extras = ["patchelf"], specifier = ">=1.8" },
     { name = "mnemo-lib", extras = ["test"], editable = "mnemo_lib" },
