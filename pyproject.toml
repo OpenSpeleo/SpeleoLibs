@@ -21,7 +21,6 @@ dependencies = [
     "mnemo_lib[test]",
     "openspeleo_core[legacy,test,benchmark]",
     "openspeleo_lib[test]",
-    "davies",
 ]
 requires-python = ">=3.10"
 
@@ -34,7 +33,6 @@ compass_lib = { path = "./compass_lib/", editable = true }
 mnemo_lib = { path = "./mnemo_lib/", editable = true }
 openspeleo_core = { path = "./openspeleo_core/", editable = true }
 openspeleo_lib = { path = "./openspeleo_lib/", editable = true }
-davies = { path = "./davies/", editable = true }
 
 [tool.isort]
 profile = "black"

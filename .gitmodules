@@ -1,7 +1,3 @@
-[submodule "mnemo_lib"]
-	path = mnemo_lib
-	url = ../pytool_mnemo_lib
-
 [submodule "ariane_lib"]
 	path = ariane_lib
 	url = ../pytool_ariane_lib
@@ -10,14 +6,18 @@
 	path = compass_lib
 	url = ../pytool_compass_lib
 
-[submodule "openspeleo_lib"]
-	path = openspeleo_lib
-	url = ../pytool_openspeleo_lib
+[submodule "compass_scratchpad"]
+	path = compass_scratchpad
+	url = ../compass_scratchpad
+
+[submodule "mnemo_lib"]
+	path = mnemo_lib
+	url = ../pytool_mnemo_lib
 
 [submodule "openspeleo_core"]
 	path = openspeleo_core
 	url = ../openspeleo_core
 
-[submodule "davies"]
-	path = davies
-	url = ../davies
+[submodule "openspeleo_lib"]
+	path = openspeleo_lib
+	url = ../pytool_openspeleo_lib
