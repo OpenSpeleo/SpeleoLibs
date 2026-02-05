@@ -18,7 +18,6 @@ dependencies = [
     # Projects
     "ariane_lib[test]",
     "compass_lib[test]",
-    "compass_scratchpad[test]",
     "mnemo_lib[test]",
     "openspeleo_core[legacy,test,benchmark]",
     "openspeleo_lib[test]",
@@ -31,7 +30,6 @@ package = false
 [tool.uv.sources]
 ariane_lib = { path = "./ariane_lib/", editable = true }
 compass_lib = { path = "./compass_lib/", editable = true }
-compass_scratchpad = { path = "./compass_scratchpad/", editable = true }
 mnemo_lib = { path = "./mnemo_lib/", editable = true }
 openspeleo_core = { path = "./openspeleo_core/", editable = true }
 openspeleo_lib = { path = "./openspeleo_lib/", editable = true }
