@@ -6,7 +6,7 @@ readme = "README.md"
 dependencies = [
     "check-manifest",
     "pre-commit>=4.1,<4.6",
-    "ruff>=0.3,<0.15",
+    "ruff>=0.3,<0.16",
     "wheel>=0.45",
     "flit>=3.12,<4",
     "maturin[patchelf]>=1.8",
@@ -22,7 +22,7 @@ dependencies = [
     "openspeleo_core[legacy,test,benchmark]",
     "openspeleo_lib[test]",
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 
 [tool.uv]
 package = false
