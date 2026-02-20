@@ -4,10 +4,8 @@ version = "1.0.0"
 authors = [{ name = "Jonathan Dekhtiar", email = "jonathan@dekhtiar.com" }]
 readme = "README.md"
 dependencies = [
-    "check-manifest",
-    "pre-commit>=4.1,<4.6",
+    "prek>=0.3.3,<0.4",
     "ruff>=0.3,<0.16",
-    "wheel>=0.45",
     "flit>=3.12,<4",
     "maturin[patchelf]>=1.8",
     # Benchmarking
