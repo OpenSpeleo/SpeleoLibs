@@ -4,15 +4,15 @@ version = "1.0.0"
 authors = [{ name = "Jonathan Dekhtiar", email = "jonathan@dekhtiar.com" }]
 readme = "README.md"
 dependencies = [
-    "prek>=0.3.3,<0.4",
-    "ruff>=0.3,<0.16",
+    "prek>=0.3.9,<0.4",
+    "ruff>=0.15.10,<0.16",
     "flit>=3.12,<4",
-    "maturin[patchelf]>=1.8",
+    "maturin[patchelf]>=1.13.1",
     # Benchmarking
-    "pyinstrument>=5.0,<6.0",
+    "pyinstrument>=5.1.2,<6.0",
     # File encryption/decryption
-    "python-dotenv>=1.0.0,<2.0.0",
-    "cryptography>=44.0.0,<47.0.0",
+    "python-dotenv>=1.2.2,<2.0.0",
+    "cryptography>=46.0.7,<47.0.0",
     # Projects
     "ariane_lib[test]",
     "compass_lib[test]",
